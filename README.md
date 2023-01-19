@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio-setup-and-mobile-first]** is my portfolio page
+**[Portfolio]** is my portfolio page
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -260,7 +260,7 @@ I would like to thank my coding partners
 
   - [Open your browser to fontawesome]
 
-- **[How did you include your background image in ur project]**
+- **[How did you include your background image in your project]**
 
   - [After exporting the image from figma save the image in a new folder under your repo name ]
 
