@@ -38,6 +38,7 @@ ul {
   font-weight: 700;
   font-size: 4rem;
   color: #172b4d;
+  font-family: "Inter", sans-serif;
 }
 
 .header-title {
@@ -54,11 +55,12 @@ ul {
   flex: none;
   order: 1;
   flex-grow: 0;
+  font-family: "Inter", sans-serif;
 }
 
-.wrapped ul {
+.icon {
   display: flex;
-  padding: 539px, 148px, 539px, 148px;
-  justify-content: space-evenly;
-  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
 }
