@@ -8,8 +8,12 @@ html {
   font-size: 62.5%;
 }
 
-nav {
-  padding: 1.2rem;
+/* nav { */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
 ul {
@@ -25,19 +29,32 @@ ul {
   font-size: 2rem;
   line-height: 1.5;
   color: #28352f;
+  height: 28px;
 }
 
 .header-section-title {
+  /* Theme 2 / H2 */
   display: flex;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+
+  /* or 130% */
   flex-direction: column;
-  padding: 2rem;
+  justify-content: center;
   text-align: center;
+  height: 192px;
+
+  /* Neutrals/N800 */
+  align-items: flex-end;
+  color: #172b4d;
 }
 
-.header-name {
+.header-name-header-title {
   font-weight: 700;
   font-size: 4rem;
-  color: #172b4d;
+  color: green;
   font-family: "Inter", sans-serif;
 }
 
@@ -62,5 +79,5 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 5px;
 }
