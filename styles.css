@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* gap: 10px 30px; */
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.welcome {
+  width: 90px;
+  height: 28px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Theme 2 / Neutral 1 */
+
+  color: #28352f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.header-section-title {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 192px;
+
+  /* Neutrals/N800 */
+
+  /* align-items:   /* color: #172b4d; */
+}
+
+.header-section {
+  width: 327px;
+  height: 192px;
+
+  /* Theme 2 / H2 */
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 70px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 68px;
+  size: 40px;
+}
+
+.header-name-header-title {
+  font-weight: 700;
+  font-size: 4rem;
+  color: green;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.header-title {
+  color: #36b37f;
+  text-align: center;
+}
+
+.paragraph {
+  width: 327px;
+  height: 164px;
+
+  /* Theme 2 / Body Reguler 1 */
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  text-align: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-top: 127px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 210px 100px 75px 100px;
+}
+
+.fa-bars {
+  padding-left: 170px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.background {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
